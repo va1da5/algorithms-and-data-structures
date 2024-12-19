@@ -1,46 +1,14 @@
 [project]
-name = "main"
-description = ""
-requires-python = ">=3.9,<4.0"
-readme = { content-type = "text/markdown", file = "README.md" }
-keywords = ["python"]
-dynamic = ["version"]
-license = { file = "LICENSE" }
-authors = [{ name = "Acme", email = "you@example.com" }]
-
-[tool.poetry]
-name = "main"
+name = "algorithms-and-data-structures"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "Add your description here"
 readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "jupyter>=1.1.1",
+    "ruff>=0.8.3",
+]
 
-[tool.poetry.dependencies]
-python = "^3.9"
-
-
-[tool.poetry.group.dev.dependencies]
-ruff = "^0.8.3"
-mypy = "^1.13.0"
-
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.mypy]
-python_version = '3.11'
-allow_redefinition = true
-check_untyped_defs = true
-show_error_codes = true
-warn_unused_ignores = true
-strict_optional = true
-incremental = true
-warn_redundant_casts = true
-warn_unused_configs = true
-local_partial_types = true
-show_traceback = true
-exclude = 'migrations/'
-strict = true
 
 [tool.ruff]
 # Exclude a variety of commonly ignored directories.
@@ -77,8 +45,6 @@ exclude = [
 line-length = 88
 indent-width = 4
 
-# Assume Python 3.11
-target-version = "py311"
 
 [tool.ruff.lint]
 # Enable Pyflakes (`F`) and a subset of the pycodestyle (`E`)  codes by default.
@@ -98,8 +64,6 @@ select = [
     # print statements
     "T201",
     "T203",
-    # misuse of typing.TYPE_CHECKING
-    "TCH004",
     # import rules
     "TID251",
     "E4",
@@ -124,7 +88,7 @@ unfixable = [
 ignore-init-module-imports = true
 
 # Allow unused variables when underscore-prefixed.
-dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+# dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
 
 [tool.ruff.format]
 # Like Black, use double quotes for strings.
