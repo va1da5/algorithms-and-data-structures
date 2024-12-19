@@ -21,3 +21,4 @@
 - [🎓 Algorithms Illuminated, Part 3: Greedy Algorithms and Dynamic Programming](https://www.youtube.com/playlist?list=PLEGCF-WLh2RI5H8JBWxq0Q4AN7XVaj-h-)
 - [🎓 Algorithms Illuminated, Part 4: Algorithms for NP-Hard Problems](https://www.youtube.com/playlist?list=PLEGCF-WLh2RK6lq3iSsiU84rWVee3A-hz)
 - [Grokking Dynamic Programming Patterns for Coding Interviews](https://www.designgurus.io/course/grokking-dynamic-programming)
+- [ThePrimeagen/kata-machine](https://github.com/ThePrimeagen/kata-machine)
