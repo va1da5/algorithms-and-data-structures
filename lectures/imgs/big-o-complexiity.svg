@@ -1,4 +1,4 @@
-<svg id="chart" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg id="chart" width="800" height="600" xmlns="http://www.w3.org/2000/svg">
 <!-- horrible region -->
 <path d="M50 450 L 50 0 L 800 0 L 800 450 Z" fill="#ff8989"></path>
 <!-- bad region -->
