@@ -1,11 +1,6 @@
 # Algorithms and Data Structures
 
-## Fundamentals
-
-- [ ] Binary Search
-- [ ] DFS
-- [ ] BFS
-- [ ] Sliding Window
+This repository mostly contains notes and implementation examples from [The Last Algorithms Course You'll Need by ThePrimeagen](https://frontendmasters.com/courses/algorithms/). However, it may include additional notes over time from further study on the topics.
 
 ## Books
 
