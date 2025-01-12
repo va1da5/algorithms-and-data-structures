@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 #define ASSERT(c, m)                                                           \
   do {                                                                         \
     if (!(c)) {                                                                \
